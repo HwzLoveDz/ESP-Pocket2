@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/69180/Desktop/ST7789_GT911_LVGL_8.3.5_666/components/**",
+                "C:/Users/69180/Desktop/ST7789_GT911_LVGL_8.3.5_666/components/lvgl/lvgl/**",
+                "C:\\Users\\69180\\Desktop\\ST7789_GT911_LVGL_8.3.5_666\\main/**",
+                "C:/Espressif/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "compilerPath": "C:\\Espressif\\tools\\xtensa-esp32s3-elf\\esp-2022r1-11.2.0\\xtensa-esp32s3-elf\\bin\\xtensa-esp32s3-elf-gcc.exe"
+        }
+    ],
+    "version": 4
+}
