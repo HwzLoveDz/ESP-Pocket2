@@ -1,4 +1,6 @@
 # ESP-POCKET2 DEV BOARD ESP-IDF EXAMPLE FRAMEWORK
+##### 有问题直接进Q群轰炸我:①群-735791683🧨
+##### https://oshwhub.com/mondraker/jiu-shi-ni-xiang-yao-de-nei-zhon
 ## INCLUDE
 * AXP202 Power management IC
   
