@@ -1,0 +1,47 @@
+menu "Example Configuration"
+
+config PIN_NUM_MISO
+    int "SPI MISO GPIO"
+	range 0 34
+	default 5
+	help
+		GPIO number (IOxx) for SPI MISO Connection.
+
+		Some GPIOs are used for other purposes (flash connections, etc.) and cannot be used.
+
+		GPIOs 35-39 are input-only so cannot be used as outputs.
+
+config PIN_NUM_MOSI
+    int "SPI MOSI GPIO"
+	range 0 34
+	default 4
+	help
+		GPIO number (IOxx) for SPI MOSI Connection.
+
+		Some GPIOs are used for other purposes (flash connections, etc.) and cannot be used.
+
+		GPIOs 35-39 are input-only so cannot be used as outputs.
+
+config PIN_NUM_CLK
+    int "SPI CLK GPIO"
+	range 0 34
+	default 6
+	help
+		GPIO number (IOxx) for SPI Clock Connection.
+
+		Some GPIOs are used for other purposes (flash connections, etc.) and cannot be used.
+
+		GPIOs 35-39 are input-only so cannot be used as outputs.
+
+# config PIN_NUM_CS
+#     int "SPI CS GPIO"
+# 	range 0 34
+# 	default 7
+# 	help
+# 		GPIO number (IOxx) for SPI Cable Select Connection.
+
+# 		Some GPIOs are used for other purposes (flash connections, etc.) and cannot be used.
+
+# 		GPIOs 35-39 are input-only so cannot be used as outputs.
+
+endmenu
